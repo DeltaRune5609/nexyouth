@@ -16,10 +16,10 @@ const App = () => {
 
   // Navigation items - easily customizable
   const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Contact", href: "#contact" }
+    { name: "Home", href: "home" },
+    { name: "About", href: "about" },
+    { name: "Services", href: "services" },
+    { name: "Contact", href: "contact" }
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
