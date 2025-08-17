@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NexYouth - Home",
-  description: "Homepage of NexYouth - Youth Empowering Youth.",
+  title: "NexYouth - Contact Us",
+  description: "Contact NexYouth - Youth Empowering Youth.",
 };
 
 export default function RootLayout({
