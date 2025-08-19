@@ -29,21 +29,27 @@ const App = () => {
       icon: "📚",
       title: "Courses",
       description: "Our 12+ free course offerings provide valuable skills to youth that will give them the necessary knowledge to be the next generation of global citizens.",
-      image: "https://images.pexels.com/photos/5905714/pexels-photo-5905714.jpeg"
+      image: "https://images.pexels.com/photos/5905714/pexels-photo-5905714.jpeg",
+      //Temporary redirect https://nexyouth.org/services/courses
+      link: "https://nexyouth.org/services"
     },
     {
       id: 2,
       icon: "🛠️",
       title: "Seminars", 
       description: "NexYouth hosts a variety of seminars with guest speakers to spark inspiration and give knowledge to youth.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2YyyOyHUB-hY_7V-teEO3vLr_VmymGYfIPQ&s"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2YyyOyHUB-hY_7V-teEO3vLr_VmymGYfIPQ&s",
+      //Temporary redirect https://nexyouth.org/services/seminars
+      link: "https://nexyouth.org/services"
     },
     {
       id: 3,
       icon: "🏆",
       title: "Contests",
       description: "NexYouth hosts a variety of completely free-to-participate contests to become global citizens.",
-      image: "https://freesvg.org/img/prize.png"
+      image: "https://freesvg.org/img/prize.png",
+      //Temporary redirect https://nexyouth.org/services/contests
+      link: "https://nexyouth.org/services"
     }
   ];
 
@@ -220,6 +226,7 @@ const App = () => {
             {services.map((service) => (
               <div key={service.id} className="text-center group cursor-pointer">
                 <div className="bg-teal-400 rounded-lg overflow-hidden mb-4 lg:mb-6 transform group-hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl">
+                  <a href={service.link} target="_blank" rel="noopener noreferrer">
                   {service.image && (
                     <img 
                       src={service.image} 
@@ -227,6 +234,7 @@ const App = () => {
                       className="w-full h-40 sm:h-48 lg:h-56 object-cover" 
                     />
                   )}
+                  </a>
                 </div>
                 <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black mb-3 lg:mb-4">{service.title}</h3>
                 <p className="text-gray-600 text-sm sm:text-base lg:text-lg max-w-sm mx-auto leading-relaxed">{service.description}</p>
