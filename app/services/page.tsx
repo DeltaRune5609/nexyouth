@@ -96,7 +96,7 @@ const ContactPage = () => {
         <main className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4">
             <div className="max-w-2xl w-full bg-white p-8 rounded-lg shadow-lg">
               <h1 className="text-3xl font-bold text-gray-800 mb-6">Services</h1>
-              <p className="text-gray-600 mb-4">Please visit <a href="https://sites.google.com/view/nexyouthtest/courses" className="text-blue-600 underline">here</a> to see our currently offered courses.</p>
+              <p className="text-gray-600 mb-4">Please visit <a href="https://sites.google.com/view/nexyouthtest/courses" className="text-blue-600 underline">here</a> to see our currently offered courses, seminars and courses.</p>
             </div>
         </main>
         </div>
