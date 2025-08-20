@@ -65,8 +65,8 @@ const App = () => {
       label: "Schools Represented"
     },
     {
-      title: "Students from 3+ Countries",
-      value: "3+",
+      title: "Students from 13+ Countries",
+      value: "13+",
       label: "Countries Reached"
     },
     {
@@ -319,8 +319,21 @@ const App = () => {
               <br></br>
             </div>
           </div>
+          {/* Mailing List Section */}
         </div>
+          <div className="text-center mt-16 lg:mt-24">
+            <div className="mx-auto w-full max-w-[640px] aspect-[640/553] bg-white">
+              <iframe
+                title="Google Form"
+                className="w-full h-full"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeSKIx9abOA7YdkUmOvSTKYYayUjEmiz9dxqoowBaifcaSZTQ/viewform?embedded=true"
+                allowFullScreen
+              >
+                Loading…
+              </iframe>
+            </div>
         </div>
+      </div>
       </section>
         <footer className="bg-gray-800 text-white py-6">
         <div className="max-w-7xl mx-auto text-center">
