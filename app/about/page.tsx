@@ -9,30 +9,128 @@ const AboutUsPage = () => {
       id: 1,
       name: "Stephanie Uzea",
       title: "Canada Head & Director of Operations",
-      image: "https://via.placeholder.com/300x400/8B5CF6/ffffff?text=Team+Member+1",
-      description: "Leading operations across Canada"
+      image: "Member_Suzea1.png",
+      description: "Stephanie is an aspiring environmental engineer with a passion for writing. She’s written multiple comics about her brother if he were a superhero as well as a science fiction trilogy. In her free time, she likes trying out new foods and cross-country running."
     },
     {
       id: 2,
       name: "Justin Huang",
       title: "Co Founder:",
-      image: "https://via.placeholder.com/300x400/3B82F6/ffffff?text=Justin+Huang",
-      description: "Visionary co-founder driving innovation"
+      image: "Member_Jhuan1.jpg",
+      description: "Justin is an enthusiast of the environment. He is an avid reader of all forms of media related to the environment. He hopes that through this contest, others will also find their own love and passion for one of the largest global issues in the world."
     },
     {
       id: 3,
       name: "Max Wen", 
       title: "Co Founder:",
-      image: "https://via.placeholder.com/300x400/EF4444/ffffff?text=Max+Wen",
-      description: "Co-founder focused on growth and impact"
+      image: "Member_Mwen1.jpg",
+      description: "Hi, I'm Max, one of the co-founders of NextYouth. I'm in Grade 9 and have been debating and teaching for over 2 years! I enjoy public speaking, STEM, and content creation(@MaxW3n)."
     },
     {
       id: 4,
-      name: "Team Member",
-      title: "Role:",
-      image: "https://via.placeholder.com/300x400/10B981/ffffff?text=Team+Member+4",
-      description: "Contributing to our mission"
-    }
+      name: "Xuhan Yang",
+      title: "Director of Technology:",
+      image: "Member_Xyang1.jpg",
+      description: "Hi I'm Xuhan! I'm a high schooler passionate about programming, math, or any thing STEM related!"
+    },
+    {
+      id: 5,
+      name: "Chloe Huang",
+      title: "Secretary:",
+      image: "Member_Chuan1.jpg",
+      description: "Chloe is a Grade 11 student at Earl of March High School. She is an avid volleyball player and loves sports!"
+    },
+    {
+      id: 6,
+      name: "Rachel Wei",
+      title: "Conquitlam Chapter Head:",
+      image: "Member_Rwei1.png",
+      description: "Rachel Wei is a rising senior at Port Moody Secondary School. She loves playing basketball, is an avid debater, and loves her pet cat! She is also a passionate environmentalist."
+    },
+    {
+      id: 7,
+      name: "Kristen Yip",
+      title: "Debate Coach:",
+      image: "Member_Kyip1.png",
+      description: "Kristen Y (she/her) is a grade 9 student and avid debater. Achievements include: Top 4th speaker+top jr speaker (Harthouse Winter Open), top 3rd speaker + grand finalist (Harthouse Summer Open), grand finalist + 4th jr speaker (Autumnloo 2024)."
+    },
+    {
+      id: 8,
+      name: "Cody Zhang",
+      title: "Economics Instructor:",
+      image: "Member_Czhan1.png",
+      description: "Cody Zhang is a high schooler from  Toronto and scored a 5 on AP Micro and makes economics simple, fun, and engaging!"
+    },
+    {
+      id: 9,
+      name: "Keerti Joshi",
+      title: "Debate Coach:",
+      image: "Member_Kjosh1.png",
+      description: "I’m Keerti, I’m a grade 11 student at Upper Canada College. I’ve been debating since Grade 8 and I debate in both WSDC and BP formats. I am a new member of the Canadian National Debating Team and have competed and won in many tournaments run by Canadian Universities."
+    },
+    {
+      id: 10,
+      name: "Jeffrey Liu",
+      title: "Debate Coach:",
+      image: "Member_Jliu1.png",
+      description: "Hi, i'm Jeffery! i am a grade 11 student at milliken Mills high school. In my free time i love cooking food, listening to music(especially hip hop and r&b), and working out! I am ecstatic to work with nexyouth this year to continue to promote accessibility in debate and further youth engagement! "
+    },
+    {
+      id: 11,
+      name: "Amy Liu",
+      title: "Debate Coach:",
+      image: "Member_Aliu1.png",
+      description: "Amy is a G10 student and a competitive debater who has won many debate tournaments."
+    },
+    {
+      id: 12,
+      name: "Ferrari Zhang",
+      title: "Debate Coach:",
+      image: "Member_Fzhan1.jpg",
+      description: "Ferrari is a G10 student and a competitive debater, who loves argumentation and refutation!"
+    },
+    {
+      id: 13,
+      name: "Terrence Guo",
+      title: "Debate Coach:",
+      image: "Member_Tguo1.png",
+      description: "Terrence is a G12 student and a competitive debater at the national level, winning many debating tournaments, including being the top speaker at Hart House High Schools."
+    },
+    {
+      id: 14,
+      name: "Yunfei Shuai",
+      title: "Contests Organizer:",
+      image: "Member_Yshua1.png",
+      description: "Yunfei wrote her first story when she was 7 years old and never looked back since (it would be great if she could actually finish her writing projects though, something she is notoriously bad at). She is an avid sci-fi enthusiast and an aspiring astrophysicist. Most of the time she can be found bingeing figure skating competitions and Arcane."
+    },
+    {
+      id: 15,
+      name: "Susan Zheng",
+      title: "Contests Organizer:",
+      image: "Member_Szhen1.png",
+      description: "Susan finds way too much enjoyment in daydreaming about fictional scenarios and promising herself she’ll finish a project tomorrow. A sci-fi fanatic, she obsesses over very specific mathematical and scientific concepts she knows she will never understand. "
+    },
+    {
+      id: 16,
+      name: "Shahrad Islam",
+      title: "Science Instructor:",
+      image: "Member_Sisla1.png",
+      description: "Hi! My name is Shahrad! Some things you should know about me are that I like playing sports, playing instruments, watching movies and shows, and I really like cats! I am happy to be a part of the NexYouth Team helping mentor and tutor others!"
+    },
+    {
+      id: 17,
+      name: "Ronnie Liu",
+      title: "Science Instructor:",
+      image: "Member_Rliu1.png",
+      description: "Hello, my name is Ronnie Liu. I am a gifted grade 10 scholar at Richmond Hill High School and I graduated with honors at Crosby Heights.  I love teaching because I enjoy watching children learn and discover new things, as well as meet new friends along the way. I teach gifted science that is enriches students' knowledge and pushes the breadth and depth of the school curriculum."
+    },
+    {
+      id: 18,
+      name: "Rest of the Team",
+      title: "Instructors & Volunteers:",
+      image: "https://media.istockphoto.com/id/1472932742/photo/group-of-multigenerational-people-hugging-each-others-support-multiracial-and-diversity.jpg?s=612x612&w=0&k=20&c=Zm1MthU_G_LzfjBFBaMORRnuBhMsCjPQ38Ksfg4zl9g=",
+      description: "More to come! We have a large team of dedicated instructors and volunteers who help make our programs possible."
+    },
   ];
 
   // Customizable frame styles - easy to modify
@@ -194,7 +292,7 @@ const AboutUsPage = () => {
                     </h3>
                     
                     {/* Description - shows on hover */}
-                    <p className="text-gray-400 text-xs sm:text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
+                    <p className="text-gray-400 text-xs sm:text-sm opacity-100 group-hover:opacity-100 transition-opacity duration-300 mt-2">
                       {member.description}
                     </p>
                   </div>

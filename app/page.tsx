@@ -29,7 +29,7 @@ const App = () => {
       icon: "📚",
       title: "Courses",
       description: "Our 12+ free course offerings provide valuable skills to youth that will give them the necessary knowledge to be the next generation of global citizens.",
-      image: "https://images.pexels.com/photos/5905714/pexels-photo-5905714.jpeg",
+      image: "seminarsimage.png",
       //Temporary redirect https://nexyouth.org/services/courses
       link: "https://nexyouth.org/services"
     },
@@ -38,7 +38,7 @@ const App = () => {
       icon: "🛠️",
       title: "Seminars", 
       description: "NexYouth hosts a variety of seminars with guest speakers to spark inspiration and give knowledge to youth.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2YyyOyHUB-hY_7V-teEO3vLr_VmymGYfIPQ&s",
+      image: "howtolandaninternshipinthesummer.png",
       //Temporary redirect https://nexyouth.org/services/seminars
       link: "https://nexyouth.org/services"
     },
