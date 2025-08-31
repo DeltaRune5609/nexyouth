@@ -9,8 +9,10 @@ const App = () => {
   const carouselItems = [
     {
       id: 1,
-      image: "emwc.png",
-      link: "https://sites.google.com/view/nexyouthtest/contests/earth-month-writing-contest"
+      /*
+      image: "null",
+      link: "https://nexyouth.org/",
+      */
     },
   ];
 
@@ -168,16 +170,18 @@ const App = () => {
       </nav>
 
       {/* Carousel Section */}
+      {/*
       <Carousel 
         items={carouselItems}
         autoPlay={true}
       />
+      */}
 
       {/* Content Section */}
       <section className="flex">
         <div className="max-w-7xl mx-auto  py-12">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4 bg-gradient-to-br from-green-400 to-blue-900 bg-clip-text text-transparent">
               NexYouth
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">

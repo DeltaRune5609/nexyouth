@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface CarouselItem {
-  image: string;
+  image?: string;
   link?: string;
   alt?: string;
 }
