@@ -77,13 +77,13 @@ const App = () => {
       label: "Cities of Operation" 
     },
     {
-      title: "Taught over 500+ Students",
-      value: "500+",
+      title: "Taught over 700+ Students",
+      value: "700+",
       label: "Students Taught"
     },
     {
-      title: "Operating in 12 different states and provinces",
-      value: "12",
+      title: "Operating in many different states and provinces",
+      value: "12+",
       label: "States & Provinces"
     }
   ];
