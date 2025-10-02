@@ -126,6 +126,13 @@ const AboutUsPage = () => {
     },
     {
       id: 18,
+      name: "Ethan Luo",
+      title: "Debate Coach:",
+      image: "Member_Eluo1.png",
+      description: "Ethan is a Grade 10 student at Abbey Park High School in Oakville. With 2 years of competitive debate experience, he has advanced at prestigious tournaments such as Harvard WSDC, Queens BPHS, McGill BPHS, and Hart House High Schools. Outside debate, he enjoys clarinet, trail running, and co-hosting Perception Podcast, where he explores philosophy from a teen’s perspective. "
+    },
+    {
+      id: 19,
       name: "Rest of the Team",
       title: "Instructors & Volunteers:",
       image: "https://media.istockphoto.com/id/1472932742/photo/group-of-multigenerational-people-hugging-each-others-support-multiracial-and-diversity.jpg?s=612x612&w=0&k=20&c=Zm1MthU_G_LzfjBFBaMORRnuBhMsCjPQ38Ksfg4zl9g=",
